@@ -1,0 +1,2330 @@
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-28 11:30:44 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/railties-4.2.5.2/lib/rails/templates/rails/welcome/index.html.erb (2.0ms)
+Completed 200 OK in 90ms (Views: 65.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-28 11:31:54 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 400ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'default' with type 'text/css'):
+    2: <html>
+    3: <head>
+    4:   <title>Shiksh</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all'%>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.css:31
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1355374758516845750_69898411764860'
+
+
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.3ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (77.9ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (127.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-28 11:33:04 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'switcher' with type 'text/css'):
+    2: <html>
+    3: <head>
+    4:   <title>Shiksh</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all'%>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.css:32
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1355374758516845750_69898411764860'
+
+
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.7ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (28.6ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.2ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (34.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-28 11:33:26 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 329ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'jquery_cookie' with type 'application/javascript'):
+    2: <html>
+    3: <head>
+    4:   <title>Shiksh</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all'%>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/javascripts/application.js:37
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1355374758516845750_69898411764860'
+
+
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.3ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (35.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-28 11:33:53 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 685ms (Views: 684.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cssc9c7.self-f1fa4c8507acadf5bde26defbd680b73f8e2e17bd1554c6692f6dc65e4609d1e.css?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/jquery.bxslider.self-bbab3ad0b58b6f86426ad37ea56ad041af6d4ec186f6bceed95572414dee8e9f.css?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/font-awesome.min.self-96fa4576380355dd7cf66edabeb90c2d7af6dd546de8374f68c95983332b4fda.css?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/settings.self-2638d5ba8e890f85c04cd4debc6593ec09e938420c92f155c01e3da59fc643c6.css?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/csse3e5.self-b0b3cf51967761a6b2a0d931d7ceb7cb0d9fd35c741c19da6480cad189d4b818.css?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/icon-font-custom.self-249291cd113bc4a677410c6e7d3ca0ccf4ca7442d4e14293b6f3709701343195.css?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/magnific-popup.self-cab90797d5486127496ae578c098122a6bc0d8fcb61bb95a9162ed9db66599db.css?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/animate.min.self-1904b8068d15058cac50df05603173711c512c2eb4e11b1125c081aab216094a.css?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/YTPlayer.self-1b23fabc90db5a8222aee0e1692192a52d34de54ce5532f2cef20820706ad90f.css?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/reset.self-9a9859165f5a2123e2f42208acf55c362555150a94f34f7e171b18d86226ba6b.css?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/grid.self-73160c7e9d79e6faf5a7888e621d66588b1721fe585910b734e7346f3440a474.css?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/elements.self-46b4a8f082c26f17c3602111aa265c1fc5422f67e7742950a59c73ffe6f6b0be.css?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/layout.self-82059abc5e4ce942b72765efee004f910ceb624758e282a013e0519fcd1c5b56.css?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/components.self-7972bf5cec17b745fe2d29ae56582f9147abc5161249f1634e0f0aae1ecaa814.css?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/wordpress.self-5bf15124713644e1bef7c1917cef648e0f53a8361c72139306c82a5e092434a1.css?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/wide.self-bd66422d852ef70491e2394830c078fe77c5716f7a337a22757546a14c3d7124.css?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/default.self-b5e7cfd95ffdd6ea877c91f31083b716a22e042f4ae267e935c62449e2bcf65b.css?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/switcher.self-295728493154482555bab81c424fbeea618da83b4e667e9477ac355db434f03e.css?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/application.self-814936ea647908416e81ff71fade9b6c82539597e891c493a585c319ebb4f598.css?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/jquery.viewport.self-d59028ab6ffb20783f9d564a473a4e2a06bf6352eb51fe41d7a3538ba2824b03.js?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/jquery.easing.1.3.self-6d53b3e71dcf4f621078bcb948d8e743a46f40420294cca0a6874f59cdf1c1d5.js?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/jquery.simpleplaceholder.self-66cc66563915f2de7bff08d600da714da082968d00bd52054a6316d2a81502b8.js?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/jquery.fitvids.self-1ff92e133cb6aa25d9eaae12601d889d4ff5dd2b201a1c6dd6faa42ede716980.js?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/animate.self-b709ec0b8e7a1994f0f3dda22a6db7a43309ae2a505bde14e44d442b3320ecdd.js?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/hoverIntent.self-37989cabe804a55ca7f650abba5be2171feb95ac19f605fecde93ff173516988.js?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/superfish.self-fc6a817c21ddf7026886dfa7a1d0171f27c0ec5574afce353c231e38f3eb33ff.js?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/jquery.themepunch.tools.min.self-0773b61ec12a597e27143dc6e3b4fb7fdb054c0708629921be78224ffc0e5878.js?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/jquery.themepunch.revolution.min.self-38754d3968ad3286e14c557ee63801fe2f00156f773556cc3d0f7a61e55696d4.js?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/jquery.bxslider.min.self-2efec8c17fede6e22e8d83ca279de13cda53ced160ab53498db5ffcf3a700dde.js?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/jquery.magnific-popup.min.self-e2dd1d67bc0f9ced59b5cea7248b7f1207706dfcfb1fb862e78d09d94664a671.js?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/imagesloaded.pkgd.min.self-d9f71cf59157a80516f4c9709f4c3920dfafa6e02c9ff9ad91e8f5e8d81b7871.js?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/isotope.pkgd.min.self-e987fac85f3abe14ca31fb1190a1df9049b188fc12cd8df8d2db359a86fbc390.js?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/jquery.parallax.min.self-ddcc7f6c70d6c5dc3c9126748f24c94c341eb4596a26b9d67b1e7cfb068f6373.js?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/jquery.easypiechart.min.self-abf5120fc1c02df4942fbf828724046afb0a8af87e757cbe4f5118bb3dc651d3.js?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/jquery.mb.YTPlayer.self-e4fefc20f6e1541afc52477d1c732844d9ab0b7e46d747e743c4ac92a82febb2.js?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/jquery.easytabs.min.self-28c5a853a39dd63c8bb3a106fee982f83d585aebc18fb2156d594dadf9c8f91d.js?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/jquery.validate.min.self-09f664de30ee196904c94320581d224630c46c5880735d76c0de0a85f46828ab.js?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/jquery.form.min.self-2d2b203893dc1aa18ceb7375d2c7f43ea8b4ed879f4176d619ee508e7f7fcd83.js?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/jquery.gmap.min.self-5c0697465ee8d66514ab9988037747fa10735986b80d43a63dbcc0a3fd9db6b6.js?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/twitterfetcher.self-a78daf836863d13ffe9959b931908fe2e9232950c58859d12f86c0977cb3b456.js?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/main.self-daaa6e23a9dee116772fd7208882c4f7a2101f0957552fc6add7b5b9cf3462aa.js?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/jquery_cookie.self-b567668fe39f1d14a8a5517912f0c9f14ee73493834eaeb7a5adacbaf712f0ba.js?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/assets/application.self-e1bab2941ae1279c16290954b8b61bda18f48019746dcaef016373533f75db3f.js?body=1" for 127.0.0.1 at 2016-06-28 11:33:54 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 303ms (Views: 302.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e914b60a6d1c297fa3583fd9296a63f79c8d2f491e2edb0146d642d1631b4013.css?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/cssc9c7.self-f1fa4c8507acadf5bde26defbd680b73f8e2e17bd1554c6692f6dc65e4609d1e.css?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/settings.self-2638d5ba8e890f85c04cd4debc6593ec09e938420c92f155c01e3da59fc643c6.css?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/font-awesome.min.self-96fa4576380355dd7cf66edabeb90c2d7af6dd546de8374f68c95983332b4fda.css?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/icon-font-custom.self-249291cd113bc4a677410c6e7d3ca0ccf4ca7442d4e14293b6f3709701343195.css?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/csse3e5.self-b0b3cf51967761a6b2a0d931d7ceb7cb0d9fd35c741c19da6480cad189d4b818.css?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/magnific-popup.self-cab90797d5486127496ae578c098122a6bc0d8fcb61bb95a9162ed9db66599db.css?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/jquery.bxslider.self-bbab3ad0b58b6f86426ad37ea56ad041af6d4ec186f6bceed95572414dee8e9f.css?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/animate.min.self-1904b8068d15058cac50df05603173711c512c2eb4e11b1125c081aab216094a.css?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/YTPlayer.self-1b23fabc90db5a8222aee0e1692192a52d34de54ce5532f2cef20820706ad90f.css?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/reset.self-9a9859165f5a2123e2f42208acf55c362555150a94f34f7e171b18d86226ba6b.css?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/components.self-7972bf5cec17b745fe2d29ae56582f9147abc5161249f1634e0f0aae1ecaa814.css?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/wordpress.self-5bf15124713644e1bef7c1917cef648e0f53a8361c72139306c82a5e092434a1.css?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/wide.self-bd66422d852ef70491e2394830c078fe77c5716f7a337a22757546a14c3d7124.css?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/default.self-b5e7cfd95ffdd6ea877c91f31083b716a22e042f4ae267e935c62449e2bcf65b.css?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/switcher.self-295728493154482555bab81c424fbeea618da83b4e667e9477ac355db434f03e.css?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/grid.self-73160c7e9d79e6faf5a7888e621d66588b1721fe585910b734e7346f3440a474.css?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/elements.self-46b4a8f082c26f17c3602111aa265c1fc5422f67e7742950a59c73ffe6f6b0be.css?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/layout.self-82059abc5e4ce942b72765efee004f910ceb624758e282a013e0519fcd1c5b56.css?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/jquery.viewport.self-d59028ab6ffb20783f9d564a473a4e2a06bf6352eb51fe41d7a3538ba2824b03.js?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/jquery.easing.1.3.self-6d53b3e71dcf4f621078bcb948d8e743a46f40420294cca0a6874f59cdf1c1d5.js?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/jquery.simpleplaceholder.self-66cc66563915f2de7bff08d600da714da082968d00bd52054a6316d2a81502b8.js?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/jquery.fitvids.self-1ff92e133cb6aa25d9eaae12601d889d4ff5dd2b201a1c6dd6faa42ede716980.js?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/animate.self-b709ec0b8e7a1994f0f3dda22a6db7a43309ae2a505bde14e44d442b3320ecdd.js?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/hoverIntent.self-37989cabe804a55ca7f650abba5be2171feb95ac19f605fecde93ff173516988.js?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/superfish.self-fc6a817c21ddf7026886dfa7a1d0171f27c0ec5574afce353c231e38f3eb33ff.js?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/jquery.themepunch.tools.min.self-0773b61ec12a597e27143dc6e3b4fb7fdb054c0708629921be78224ffc0e5878.js?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/jquery.themepunch.revolution.min.self-38754d3968ad3286e14c557ee63801fe2f00156f773556cc3d0f7a61e55696d4.js?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/jquery.bxslider.min.self-2efec8c17fede6e22e8d83ca279de13cda53ced160ab53498db5ffcf3a700dde.js?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/jquery.magnific-popup.min.self-e2dd1d67bc0f9ced59b5cea7248b7f1207706dfcfb1fb862e78d09d94664a671.js?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/imagesloaded.pkgd.min.self-d9f71cf59157a80516f4c9709f4c3920dfafa6e02c9ff9ad91e8f5e8d81b7871.js?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/isotope.pkgd.min.self-e987fac85f3abe14ca31fb1190a1df9049b188fc12cd8df8d2db359a86fbc390.js?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/jquery.parallax.min.self-ddcc7f6c70d6c5dc3c9126748f24c94c341eb4596a26b9d67b1e7cfb068f6373.js?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/jquery.easypiechart.min.self-abf5120fc1c02df4942fbf828724046afb0a8af87e757cbe4f5118bb3dc651d3.js?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/jquery.mb.YTPlayer.self-e4fefc20f6e1541afc52477d1c732844d9ab0b7e46d747e743c4ac92a82febb2.js?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/jquery.easytabs.min.self-28c5a853a39dd63c8bb3a106fee982f83d585aebc18fb2156d594dadf9c8f91d.js?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/jquery.validate.min.self-09f664de30ee196904c94320581d224630c46c5880735d76c0de0a85f46828ab.js?body=1" for 127.0.0.1 at 2016-06-28 11:42:58 +0530
+
+
+Started GET "/assets/jquery.form.min.self-2d2b203893dc1aa18ceb7375d2c7f43ea8b4ed879f4176d619ee508e7f7fcd83.js?body=1" for 127.0.0.1 at 2016-06-28 11:42:59 +0530
+
+
+Started GET "/assets/jquery.gmap.min.self-5c0697465ee8d66514ab9988037747fa10735986b80d43a63dbcc0a3fd9db6b6.js?body=1" for 127.0.0.1 at 2016-06-28 11:42:59 +0530
+
+
+Started GET "/assets/twitterfetcher.self-a78daf836863d13ffe9959b931908fe2e9232950c58859d12f86c0977cb3b456.js?body=1" for 127.0.0.1 at 2016-06-28 11:42:59 +0530
+
+
+Started GET "/assets/main.self-daaa6e23a9dee116772fd7208882c4f7a2101f0957552fc6add7b5b9cf3462aa.js?body=1" for 127.0.0.1 at 2016-06-28 11:42:59 +0530
+
+
+Started GET "/assets/jquery_cookie.self-b567668fe39f1d14a8a5517912f0c9f14ee73493834eaeb7a5adacbaf712f0ba.js?body=1" for 127.0.0.1 at 2016-06-28 11:42:59 +0530
+
+
+Started GET "/assets/application.self-e1bab2941ae1279c16290954b8b61bda18f48019746dcaef016373533f75db3f.js?body=1" for 127.0.0.1 at 2016-06-28 11:42:59 +0530
+
+
+Started GET "/assets/ShikshaSystemLogo.png" for 127.0.0.1 at 2016-06-28 11:42:59 +0530
+
+
+Started GET "/assets/indiaC.gif" for 127.0.0.1 at 2016-06-28 11:42:59 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 146ms (Views: 145.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.min.self-96fa4576380355dd7cf66edabeb90c2d7af6dd546de8374f68c95983332b4fda.css?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/cssc9c7.self-f1fa4c8507acadf5bde26defbd680b73f8e2e17bd1554c6692f6dc65e4609d1e.css?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/csse3e5.self-b0b3cf51967761a6b2a0d931d7ceb7cb0d9fd35c741c19da6480cad189d4b818.css?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/icon-font-custom.self-249291cd113bc4a677410c6e7d3ca0ccf4ca7442d4e14293b6f3709701343195.css?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/magnific-popup.self-cab90797d5486127496ae578c098122a6bc0d8fcb61bb95a9162ed9db66599db.css?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/settings.self-2638d5ba8e890f85c04cd4debc6593ec09e938420c92f155c01e3da59fc643c6.css?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/jquery.bxslider.self-bbab3ad0b58b6f86426ad37ea56ad041af6d4ec186f6bceed95572414dee8e9f.css?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/animate.min.self-1904b8068d15058cac50df05603173711c512c2eb4e11b1125c081aab216094a.css?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/YTPlayer.self-1b23fabc90db5a8222aee0e1692192a52d34de54ce5532f2cef20820706ad90f.css?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/reset.self-9a9859165f5a2123e2f42208acf55c362555150a94f34f7e171b18d86226ba6b.css?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/grid.self-73160c7e9d79e6faf5a7888e621d66588b1721fe585910b734e7346f3440a474.css?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/elements.self-46b4a8f082c26f17c3602111aa265c1fc5422f67e7742950a59c73ffe6f6b0be.css?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/layout.self-82059abc5e4ce942b72765efee004f910ceb624758e282a013e0519fcd1c5b56.css?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/components.self-7972bf5cec17b745fe2d29ae56582f9147abc5161249f1634e0f0aae1ecaa814.css?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/wordpress.self-5bf15124713644e1bef7c1917cef648e0f53a8361c72139306c82a5e092434a1.css?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/wide.self-bd66422d852ef70491e2394830c078fe77c5716f7a337a22757546a14c3d7124.css?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/default.self-b5e7cfd95ffdd6ea877c91f31083b716a22e042f4ae267e935c62449e2bcf65b.css?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/switcher.self-295728493154482555bab81c424fbeea618da83b4e667e9477ac355db434f03e.css?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/application.self-e914b60a6d1c297fa3583fd9296a63f79c8d2f491e2edb0146d642d1631b4013.css?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/jquery.viewport.self-d59028ab6ffb20783f9d564a473a4e2a06bf6352eb51fe41d7a3538ba2824b03.js?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/jquery.easing.1.3.self-6d53b3e71dcf4f621078bcb948d8e743a46f40420294cca0a6874f59cdf1c1d5.js?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/jquery.simpleplaceholder.self-66cc66563915f2de7bff08d600da714da082968d00bd52054a6316d2a81502b8.js?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/jquery.fitvids.self-1ff92e133cb6aa25d9eaae12601d889d4ff5dd2b201a1c6dd6faa42ede716980.js?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/animate.self-b709ec0b8e7a1994f0f3dda22a6db7a43309ae2a505bde14e44d442b3320ecdd.js?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/hoverIntent.self-37989cabe804a55ca7f650abba5be2171feb95ac19f605fecde93ff173516988.js?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/superfish.self-fc6a817c21ddf7026886dfa7a1d0171f27c0ec5574afce353c231e38f3eb33ff.js?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/jquery.themepunch.tools.min.self-0773b61ec12a597e27143dc6e3b4fb7fdb054c0708629921be78224ffc0e5878.js?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/jquery.themepunch.revolution.min.self-38754d3968ad3286e14c557ee63801fe2f00156f773556cc3d0f7a61e55696d4.js?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/jquery.bxslider.min.self-2efec8c17fede6e22e8d83ca279de13cda53ced160ab53498db5ffcf3a700dde.js?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/jquery.magnific-popup.min.self-e2dd1d67bc0f9ced59b5cea7248b7f1207706dfcfb1fb862e78d09d94664a671.js?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/imagesloaded.pkgd.min.self-d9f71cf59157a80516f4c9709f4c3920dfafa6e02c9ff9ad91e8f5e8d81b7871.js?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/isotope.pkgd.min.self-e987fac85f3abe14ca31fb1190a1df9049b188fc12cd8df8d2db359a86fbc390.js?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/jquery.parallax.min.self-ddcc7f6c70d6c5dc3c9126748f24c94c341eb4596a26b9d67b1e7cfb068f6373.js?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/jquery.easypiechart.min.self-abf5120fc1c02df4942fbf828724046afb0a8af87e757cbe4f5118bb3dc651d3.js?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/jquery.mb.YTPlayer.self-e4fefc20f6e1541afc52477d1c732844d9ab0b7e46d747e743c4ac92a82febb2.js?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/jquery.easytabs.min.self-28c5a853a39dd63c8bb3a106fee982f83d585aebc18fb2156d594dadf9c8f91d.js?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/jquery.validate.min.self-09f664de30ee196904c94320581d224630c46c5880735d76c0de0a85f46828ab.js?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/jquery.form.min.self-2d2b203893dc1aa18ceb7375d2c7f43ea8b4ed879f4176d619ee508e7f7fcd83.js?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/jquery.gmap.min.self-5c0697465ee8d66514ab9988037747fa10735986b80d43a63dbcc0a3fd9db6b6.js?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/twitterfetcher.self-a78daf836863d13ffe9959b931908fe2e9232950c58859d12f86c0977cb3b456.js?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/main.self-daaa6e23a9dee116772fd7208882c4f7a2101f0957552fc6add7b5b9cf3462aa.js?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/jquery_cookie.self-b567668fe39f1d14a8a5517912f0c9f14ee73493834eaeb7a5adacbaf712f0ba.js?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/application.self-e1bab2941ae1279c16290954b8b61bda18f48019746dcaef016373533f75db3f.js?body=1" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/indiaC.gif" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/ShikshaSystemLogo.png" for 127.0.0.1 at 2016-06-28 11:45:40 +0530
+
+
+Started GET "/assets/fonts/iconfontcustom9659.woff?jzaet" for 127.0.0.1 at 2016-06-28 11:45:41 +0530
+
+
+Started GET "/assets/font/fontawesome-webfonte0a5.woff2?v=4.3.0" for 127.0.0.1 at 2016-06-28 11:45:41 +0530
+
+
+Started GET "/content/background/1920x1080-3.jpg" for 127.0.0.1 at 2016-06-28 11:45:41 +0530
+
+ActionController::RoutingError (No route matches [GET] "/content/background/1920x1080-3.jpg"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (36.9ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (80.7ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.8ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (39.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 214ms (Views: 213.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/layout.self-00e2f5bfdad0d2b8ce7e7030dd34072aced93c87a9a3f7612ec86981cc6c4245.css?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/default.self-b56fea4f131fe6da106b4d9e3997186621785e3a442a9f42ac54a5f611923292.css?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/csse3e5.self-b0b3cf51967761a6b2a0d931d7ceb7cb0d9fd35c741c19da6480cad189d4b818.css?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/icon-font-custom.self-249291cd113bc4a677410c6e7d3ca0ccf4ca7442d4e14293b6f3709701343195.css?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/cssc9c7.self-f1fa4c8507acadf5bde26defbd680b73f8e2e17bd1554c6692f6dc65e4609d1e.css?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/font-awesome.min.self-96fa4576380355dd7cf66edabeb90c2d7af6dd546de8374f68c95983332b4fda.css?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/settings.self-2638d5ba8e890f85c04cd4debc6593ec09e938420c92f155c01e3da59fc643c6.css?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/magnific-popup.self-cab90797d5486127496ae578c098122a6bc0d8fcb61bb95a9162ed9db66599db.css?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/jquery.bxslider.self-bbab3ad0b58b6f86426ad37ea56ad041af6d4ec186f6bceed95572414dee8e9f.css?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/animate.min.self-1904b8068d15058cac50df05603173711c512c2eb4e11b1125c081aab216094a.css?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/YTPlayer.self-1b23fabc90db5a8222aee0e1692192a52d34de54ce5532f2cef20820706ad90f.css?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/reset.self-9a9859165f5a2123e2f42208acf55c362555150a94f34f7e171b18d86226ba6b.css?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/grid.self-73160c7e9d79e6faf5a7888e621d66588b1721fe585910b734e7346f3440a474.css?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/elements.self-46b4a8f082c26f17c3602111aa265c1fc5422f67e7742950a59c73ffe6f6b0be.css?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/components.self-7972bf5cec17b745fe2d29ae56582f9147abc5161249f1634e0f0aae1ecaa814.css?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/wordpress.self-5bf15124713644e1bef7c1917cef648e0f53a8361c72139306c82a5e092434a1.css?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/wide.self-bd66422d852ef70491e2394830c078fe77c5716f7a337a22757546a14c3d7124.css?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/switcher.self-295728493154482555bab81c424fbeea618da83b4e667e9477ac355db434f03e.css?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/application.self-e914b60a6d1c297fa3583fd9296a63f79c8d2f491e2edb0146d642d1631b4013.css?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/jquery.viewport.self-d59028ab6ffb20783f9d564a473a4e2a06bf6352eb51fe41d7a3538ba2824b03.js?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/jquery.easing.1.3.self-6d53b3e71dcf4f621078bcb948d8e743a46f40420294cca0a6874f59cdf1c1d5.js?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/jquery.simpleplaceholder.self-66cc66563915f2de7bff08d600da714da082968d00bd52054a6316d2a81502b8.js?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/jquery.fitvids.self-1ff92e133cb6aa25d9eaae12601d889d4ff5dd2b201a1c6dd6faa42ede716980.js?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/animate.self-b709ec0b8e7a1994f0f3dda22a6db7a43309ae2a505bde14e44d442b3320ecdd.js?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/hoverIntent.self-37989cabe804a55ca7f650abba5be2171feb95ac19f605fecde93ff173516988.js?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/superfish.self-fc6a817c21ddf7026886dfa7a1d0171f27c0ec5574afce353c231e38f3eb33ff.js?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/jquery.themepunch.tools.min.self-0773b61ec12a597e27143dc6e3b4fb7fdb054c0708629921be78224ffc0e5878.js?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/jquery.themepunch.revolution.min.self-38754d3968ad3286e14c557ee63801fe2f00156f773556cc3d0f7a61e55696d4.js?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/jquery.magnific-popup.min.self-e2dd1d67bc0f9ced59b5cea7248b7f1207706dfcfb1fb862e78d09d94664a671.js?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/jquery.bxslider.min.self-2efec8c17fede6e22e8d83ca279de13cda53ced160ab53498db5ffcf3a700dde.js?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/imagesloaded.pkgd.min.self-d9f71cf59157a80516f4c9709f4c3920dfafa6e02c9ff9ad91e8f5e8d81b7871.js?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/isotope.pkgd.min.self-e987fac85f3abe14ca31fb1190a1df9049b188fc12cd8df8d2db359a86fbc390.js?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/jquery.parallax.min.self-ddcc7f6c70d6c5dc3c9126748f24c94c341eb4596a26b9d67b1e7cfb068f6373.js?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/jquery.easypiechart.min.self-abf5120fc1c02df4942fbf828724046afb0a8af87e757cbe4f5118bb3dc651d3.js?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/jquery.mb.YTPlayer.self-e4fefc20f6e1541afc52477d1c732844d9ab0b7e46d747e743c4ac92a82febb2.js?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/jquery.easytabs.min.self-28c5a853a39dd63c8bb3a106fee982f83d585aebc18fb2156d594dadf9c8f91d.js?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/jquery.form.min.self-2d2b203893dc1aa18ceb7375d2c7f43ea8b4ed879f4176d619ee508e7f7fcd83.js?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/jquery.validate.min.self-09f664de30ee196904c94320581d224630c46c5880735d76c0de0a85f46828ab.js?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/jquery.gmap.min.self-5c0697465ee8d66514ab9988037747fa10735986b80d43a63dbcc0a3fd9db6b6.js?body=1" for 127.0.0.1 at 2016-06-28 12:02:43 +0530
+
+
+Started GET "/assets/twitterfetcher.self-a78daf836863d13ffe9959b931908fe2e9232950c58859d12f86c0977cb3b456.js?body=1" for 127.0.0.1 at 2016-06-28 12:02:44 +0530
+
+
+Started GET "/assets/main.self-daaa6e23a9dee116772fd7208882c4f7a2101f0957552fc6add7b5b9cf3462aa.js?body=1" for 127.0.0.1 at 2016-06-28 12:02:44 +0530
+
+
+Started GET "/assets/jquery_cookie.self-b567668fe39f1d14a8a5517912f0c9f14ee73493834eaeb7a5adacbaf712f0ba.js?body=1" for 127.0.0.1 at 2016-06-28 12:02:44 +0530
+
+
+Started GET "/assets/application.self-e1bab2941ae1279c16290954b8b61bda18f48019746dcaef016373533f75db3f.js?body=1" for 127.0.0.1 at 2016-06-28 12:02:44 +0530
+
+
+Started GET "/assets/ShikshaSystemLogo.png" for 127.0.0.1 at 2016-06-28 12:02:44 +0530
+
+
+Started GET "/assets/indiaC.gif" for 127.0.0.1 at 2016-06-28 12:02:44 +0530
+
+
+Started GET "/assets/1920x1080-3.jpg" for 127.0.0.1 at 2016-06-28 12:02:44 +0530
+
+ActionController::RoutingError (No route matches [GET] "/assets/1920x1080-3.jpg"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (36.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.7ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (41.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-28 12:04:59 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 320ms (Views: 319.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cssc9c7.self-f1fa4c8507acadf5bde26defbd680b73f8e2e17bd1554c6692f6dc65e4609d1e.css?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/icon-font-custom.self-249291cd113bc4a677410c6e7d3ca0ccf4ca7442d4e14293b6f3709701343195.css?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/csse3e5.self-b0b3cf51967761a6b2a0d931d7ceb7cb0d9fd35c741c19da6480cad189d4b818.css?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/settings.self-2638d5ba8e890f85c04cd4debc6593ec09e938420c92f155c01e3da59fc643c6.css?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/font-awesome.min.self-96fa4576380355dd7cf66edabeb90c2d7af6dd546de8374f68c95983332b4fda.css?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/jquery.bxslider.self-bbab3ad0b58b6f86426ad37ea56ad041af6d4ec186f6bceed95572414dee8e9f.css?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/magnific-popup.self-cab90797d5486127496ae578c098122a6bc0d8fcb61bb95a9162ed9db66599db.css?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/animate.min.self-1904b8068d15058cac50df05603173711c512c2eb4e11b1125c081aab216094a.css?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/YTPlayer.self-1b23fabc90db5a8222aee0e1692192a52d34de54ce5532f2cef20820706ad90f.css?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/reset.self-9a9859165f5a2123e2f42208acf55c362555150a94f34f7e171b18d86226ba6b.css?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/grid.self-73160c7e9d79e6faf5a7888e621d66588b1721fe585910b734e7346f3440a474.css?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/elements.self-46b4a8f082c26f17c3602111aa265c1fc5422f67e7742950a59c73ffe6f6b0be.css?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/layout.self-00e2f5bfdad0d2b8ce7e7030dd34072aced93c87a9a3f7612ec86981cc6c4245.css?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/components.self-7972bf5cec17b745fe2d29ae56582f9147abc5161249f1634e0f0aae1ecaa814.css?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/wordpress.self-5bf15124713644e1bef7c1917cef648e0f53a8361c72139306c82a5e092434a1.css?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/wide.self-bd66422d852ef70491e2394830c078fe77c5716f7a337a22757546a14c3d7124.css?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/default.self-b56fea4f131fe6da106b4d9e3997186621785e3a442a9f42ac54a5f611923292.css?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/switcher.self-295728493154482555bab81c424fbeea618da83b4e667e9477ac355db434f03e.css?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/application.self-e914b60a6d1c297fa3583fd9296a63f79c8d2f491e2edb0146d642d1631b4013.css?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/jquery.viewport.self-d59028ab6ffb20783f9d564a473a4e2a06bf6352eb51fe41d7a3538ba2824b03.js?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/jquery.easing.1.3.self-6d53b3e71dcf4f621078bcb948d8e743a46f40420294cca0a6874f59cdf1c1d5.js?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/jquery.simpleplaceholder.self-66cc66563915f2de7bff08d600da714da082968d00bd52054a6316d2a81502b8.js?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/jquery.fitvids.self-1ff92e133cb6aa25d9eaae12601d889d4ff5dd2b201a1c6dd6faa42ede716980.js?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/animate.self-b709ec0b8e7a1994f0f3dda22a6db7a43309ae2a505bde14e44d442b3320ecdd.js?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/hoverIntent.self-37989cabe804a55ca7f650abba5be2171feb95ac19f605fecde93ff173516988.js?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/superfish.self-fc6a817c21ddf7026886dfa7a1d0171f27c0ec5574afce353c231e38f3eb33ff.js?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/jquery.themepunch.tools.min.self-0773b61ec12a597e27143dc6e3b4fb7fdb054c0708629921be78224ffc0e5878.js?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/jquery.themepunch.revolution.min.self-38754d3968ad3286e14c557ee63801fe2f00156f773556cc3d0f7a61e55696d4.js?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/jquery.magnific-popup.min.self-e2dd1d67bc0f9ced59b5cea7248b7f1207706dfcfb1fb862e78d09d94664a671.js?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/jquery.bxslider.min.self-2efec8c17fede6e22e8d83ca279de13cda53ced160ab53498db5ffcf3a700dde.js?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/imagesloaded.pkgd.min.self-d9f71cf59157a80516f4c9709f4c3920dfafa6e02c9ff9ad91e8f5e8d81b7871.js?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/isotope.pkgd.min.self-e987fac85f3abe14ca31fb1190a1df9049b188fc12cd8df8d2db359a86fbc390.js?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/jquery.parallax.min.self-ddcc7f6c70d6c5dc3c9126748f24c94c341eb4596a26b9d67b1e7cfb068f6373.js?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/jquery.easypiechart.min.self-abf5120fc1c02df4942fbf828724046afb0a8af87e757cbe4f5118bb3dc651d3.js?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/jquery.mb.YTPlayer.self-e4fefc20f6e1541afc52477d1c732844d9ab0b7e46d747e743c4ac92a82febb2.js?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/jquery.easytabs.min.self-28c5a853a39dd63c8bb3a106fee982f83d585aebc18fb2156d594dadf9c8f91d.js?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/jquery.validate.min.self-09f664de30ee196904c94320581d224630c46c5880735d76c0de0a85f46828ab.js?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/jquery.form.min.self-2d2b203893dc1aa18ceb7375d2c7f43ea8b4ed879f4176d619ee508e7f7fcd83.js?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/jquery.gmap.min.self-5c0697465ee8d66514ab9988037747fa10735986b80d43a63dbcc0a3fd9db6b6.js?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/twitterfetcher.self-a78daf836863d13ffe9959b931908fe2e9232950c58859d12f86c0977cb3b456.js?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/main.self-daaa6e23a9dee116772fd7208882c4f7a2101f0957552fc6add7b5b9cf3462aa.js?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/jquery_cookie.self-b567668fe39f1d14a8a5517912f0c9f14ee73493834eaeb7a5adacbaf712f0ba.js?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/application.self-e1bab2941ae1279c16290954b8b61bda18f48019746dcaef016373533f75db3f.js?body=1" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/ShikshaSystemLogo.png" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/indiaC.gif" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/assets/1920x1080-3.jpg" for 127.0.0.1 at 2016-06-28 12:05:00 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-28 12:07:13 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 152ms (Views: 151.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.bxslider.self-bbab3ad0b58b6f86426ad37ea56ad041af6d4ec186f6bceed95572414dee8e9f.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/icon-font-custom.self-249291cd113bc4a677410c6e7d3ca0ccf4ca7442d4e14293b6f3709701343195.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/csse3e5.self-b0b3cf51967761a6b2a0d931d7ceb7cb0d9fd35c741c19da6480cad189d4b818.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/settings.self-2638d5ba8e890f85c04cd4debc6593ec09e938420c92f155c01e3da59fc643c6.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/cssc9c7.self-f1fa4c8507acadf5bde26defbd680b73f8e2e17bd1554c6692f6dc65e4609d1e.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/font-awesome.min.self-96fa4576380355dd7cf66edabeb90c2d7af6dd546de8374f68c95983332b4fda.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/magnific-popup.self-cab90797d5486127496ae578c098122a6bc0d8fcb61bb95a9162ed9db66599db.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/animate.min.self-1904b8068d15058cac50df05603173711c512c2eb4e11b1125c081aab216094a.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/YTPlayer.self-1b23fabc90db5a8222aee0e1692192a52d34de54ce5532f2cef20820706ad90f.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/reset.self-9a9859165f5a2123e2f42208acf55c362555150a94f34f7e171b18d86226ba6b.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/grid.self-73160c7e9d79e6faf5a7888e621d66588b1721fe585910b734e7346f3440a474.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/elements.self-46b4a8f082c26f17c3602111aa265c1fc5422f67e7742950a59c73ffe6f6b0be.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/layout.self-00e2f5bfdad0d2b8ce7e7030dd34072aced93c87a9a3f7612ec86981cc6c4245.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/components.self-7972bf5cec17b745fe2d29ae56582f9147abc5161249f1634e0f0aae1ecaa814.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/wordpress.self-5bf15124713644e1bef7c1917cef648e0f53a8361c72139306c82a5e092434a1.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/wide.self-bd66422d852ef70491e2394830c078fe77c5716f7a337a22757546a14c3d7124.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/default.self-b56fea4f131fe6da106b4d9e3997186621785e3a442a9f42ac54a5f611923292.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/switcher.self-295728493154482555bab81c424fbeea618da83b4e667e9477ac355db434f03e.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/application.self-e914b60a6d1c297fa3583fd9296a63f79c8d2f491e2edb0146d642d1631b4013.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/jquery.viewport.self-d59028ab6ffb20783f9d564a473a4e2a06bf6352eb51fe41d7a3538ba2824b03.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/jquery.easing.1.3.self-6d53b3e71dcf4f621078bcb948d8e743a46f40420294cca0a6874f59cdf1c1d5.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/jquery.simpleplaceholder.self-66cc66563915f2de7bff08d600da714da082968d00bd52054a6316d2a81502b8.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/jquery.fitvids.self-1ff92e133cb6aa25d9eaae12601d889d4ff5dd2b201a1c6dd6faa42ede716980.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/animate.self-b709ec0b8e7a1994f0f3dda22a6db7a43309ae2a505bde14e44d442b3320ecdd.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/hoverIntent.self-37989cabe804a55ca7f650abba5be2171feb95ac19f605fecde93ff173516988.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/superfish.self-fc6a817c21ddf7026886dfa7a1d0171f27c0ec5574afce353c231e38f3eb33ff.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/jquery.themepunch.tools.min.self-0773b61ec12a597e27143dc6e3b4fb7fdb054c0708629921be78224ffc0e5878.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/jquery.themepunch.revolution.min.self-38754d3968ad3286e14c557ee63801fe2f00156f773556cc3d0f7a61e55696d4.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/jquery.bxslider.min.self-2efec8c17fede6e22e8d83ca279de13cda53ced160ab53498db5ffcf3a700dde.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/jquery.magnific-popup.min.self-e2dd1d67bc0f9ced59b5cea7248b7f1207706dfcfb1fb862e78d09d94664a671.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/imagesloaded.pkgd.min.self-d9f71cf59157a80516f4c9709f4c3920dfafa6e02c9ff9ad91e8f5e8d81b7871.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/isotope.pkgd.min.self-e987fac85f3abe14ca31fb1190a1df9049b188fc12cd8df8d2db359a86fbc390.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/jquery.parallax.min.self-ddcc7f6c70d6c5dc3c9126748f24c94c341eb4596a26b9d67b1e7cfb068f6373.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/jquery.easypiechart.min.self-abf5120fc1c02df4942fbf828724046afb0a8af87e757cbe4f5118bb3dc651d3.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/jquery.easytabs.min.self-28c5a853a39dd63c8bb3a106fee982f83d585aebc18fb2156d594dadf9c8f91d.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/jquery.mb.YTPlayer.self-e4fefc20f6e1541afc52477d1c732844d9ab0b7e46d747e743c4ac92a82febb2.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/jquery.validate.min.self-09f664de30ee196904c94320581d224630c46c5880735d76c0de0a85f46828ab.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/jquery.form.min.self-2d2b203893dc1aa18ceb7375d2c7f43ea8b4ed879f4176d619ee508e7f7fcd83.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/jquery.gmap.min.self-5c0697465ee8d66514ab9988037747fa10735986b80d43a63dbcc0a3fd9db6b6.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/twitterfetcher.self-a78daf836863d13ffe9959b931908fe2e9232950c58859d12f86c0977cb3b456.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/main.self-daaa6e23a9dee116772fd7208882c4f7a2101f0957552fc6add7b5b9cf3462aa.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/jquery_cookie.self-b567668fe39f1d14a8a5517912f0c9f14ee73493834eaeb7a5adacbaf712f0ba.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/application.self-e1bab2941ae1279c16290954b8b61bda18f48019746dcaef016373533f75db3f.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/ShikshaSystemLogo.png" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/assets/images/indiaC.gif" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/indiaC.gif"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.0ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.7ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (42.3ms)
+
+
+Started GET "/assets/1920x1080-3.jpg" for 127.0.0.1 at 2016-06-28 12:07:14 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 122ms (Views: 120.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cssc9c7.self-f1fa4c8507acadf5bde26defbd680b73f8e2e17bd1554c6692f6dc65e4609d1e.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/csse3e5.self-b0b3cf51967761a6b2a0d931d7ceb7cb0d9fd35c741c19da6480cad189d4b818.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/jquery.bxslider.self-bbab3ad0b58b6f86426ad37ea56ad041af6d4ec186f6bceed95572414dee8e9f.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/settings.self-2638d5ba8e890f85c04cd4debc6593ec09e938420c92f155c01e3da59fc643c6.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/icon-font-custom.self-249291cd113bc4a677410c6e7d3ca0ccf4ca7442d4e14293b6f3709701343195.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/font-awesome.min.self-96fa4576380355dd7cf66edabeb90c2d7af6dd546de8374f68c95983332b4fda.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/magnific-popup.self-cab90797d5486127496ae578c098122a6bc0d8fcb61bb95a9162ed9db66599db.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/animate.min.self-1904b8068d15058cac50df05603173711c512c2eb4e11b1125c081aab216094a.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/YTPlayer.self-1b23fabc90db5a8222aee0e1692192a52d34de54ce5532f2cef20820706ad90f.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/reset.self-9a9859165f5a2123e2f42208acf55c362555150a94f34f7e171b18d86226ba6b.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/grid.self-73160c7e9d79e6faf5a7888e621d66588b1721fe585910b734e7346f3440a474.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/elements.self-46b4a8f082c26f17c3602111aa265c1fc5422f67e7742950a59c73ffe6f6b0be.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/layout.self-00e2f5bfdad0d2b8ce7e7030dd34072aced93c87a9a3f7612ec86981cc6c4245.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/components.self-7972bf5cec17b745fe2d29ae56582f9147abc5161249f1634e0f0aae1ecaa814.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/wordpress.self-5bf15124713644e1bef7c1917cef648e0f53a8361c72139306c82a5e092434a1.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/wide.self-bd66422d852ef70491e2394830c078fe77c5716f7a337a22757546a14c3d7124.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/default.self-b56fea4f131fe6da106b4d9e3997186621785e3a442a9f42ac54a5f611923292.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/switcher.self-295728493154482555bab81c424fbeea618da83b4e667e9477ac355db434f03e.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/application.self-e914b60a6d1c297fa3583fd9296a63f79c8d2f491e2edb0146d642d1631b4013.css?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/jquery.viewport.self-d59028ab6ffb20783f9d564a473a4e2a06bf6352eb51fe41d7a3538ba2824b03.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/jquery.easing.1.3.self-6d53b3e71dcf4f621078bcb948d8e743a46f40420294cca0a6874f59cdf1c1d5.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/jquery.simpleplaceholder.self-66cc66563915f2de7bff08d600da714da082968d00bd52054a6316d2a81502b8.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/jquery.fitvids.self-1ff92e133cb6aa25d9eaae12601d889d4ff5dd2b201a1c6dd6faa42ede716980.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/animate.self-b709ec0b8e7a1994f0f3dda22a6db7a43309ae2a505bde14e44d442b3320ecdd.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/hoverIntent.self-37989cabe804a55ca7f650abba5be2171feb95ac19f605fecde93ff173516988.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/superfish.self-fc6a817c21ddf7026886dfa7a1d0171f27c0ec5574afce353c231e38f3eb33ff.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/jquery.themepunch.tools.min.self-0773b61ec12a597e27143dc6e3b4fb7fdb054c0708629921be78224ffc0e5878.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/jquery.themepunch.revolution.min.self-38754d3968ad3286e14c557ee63801fe2f00156f773556cc3d0f7a61e55696d4.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/jquery.bxslider.min.self-2efec8c17fede6e22e8d83ca279de13cda53ced160ab53498db5ffcf3a700dde.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/jquery.magnific-popup.min.self-e2dd1d67bc0f9ced59b5cea7248b7f1207706dfcfb1fb862e78d09d94664a671.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/imagesloaded.pkgd.min.self-d9f71cf59157a80516f4c9709f4c3920dfafa6e02c9ff9ad91e8f5e8d81b7871.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:32 +0530
+
+
+Started GET "/assets/isotope.pkgd.min.self-e987fac85f3abe14ca31fb1190a1df9049b188fc12cd8df8d2db359a86fbc390.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:33 +0530
+
+
+Started GET "/assets/jquery.parallax.min.self-ddcc7f6c70d6c5dc3c9126748f24c94c341eb4596a26b9d67b1e7cfb068f6373.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:33 +0530
+
+
+Started GET "/assets/jquery.mb.YTPlayer.self-e4fefc20f6e1541afc52477d1c732844d9ab0b7e46d747e743c4ac92a82febb2.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:33 +0530
+
+
+Started GET "/assets/jquery.easypiechart.min.self-abf5120fc1c02df4942fbf828724046afb0a8af87e757cbe4f5118bb3dc651d3.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:33 +0530
+
+
+Started GET "/assets/jquery.easytabs.min.self-28c5a853a39dd63c8bb3a106fee982f83d585aebc18fb2156d594dadf9c8f91d.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:33 +0530
+
+
+Started GET "/assets/jquery.validate.min.self-09f664de30ee196904c94320581d224630c46c5880735d76c0de0a85f46828ab.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:33 +0530
+
+
+Started GET "/assets/jquery.form.min.self-2d2b203893dc1aa18ceb7375d2c7f43ea8b4ed879f4176d619ee508e7f7fcd83.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:33 +0530
+
+
+Started GET "/assets/jquery.gmap.min.self-5c0697465ee8d66514ab9988037747fa10735986b80d43a63dbcc0a3fd9db6b6.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:33 +0530
+
+
+Started GET "/assets/twitterfetcher.self-a78daf836863d13ffe9959b931908fe2e9232950c58859d12f86c0977cb3b456.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:33 +0530
+
+
+Started GET "/assets/main.self-daaa6e23a9dee116772fd7208882c4f7a2101f0957552fc6add7b5b9cf3462aa.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:33 +0530
+
+
+Started GET "/assets/jquery_cookie.self-b567668fe39f1d14a8a5517912f0c9f14ee73493834eaeb7a5adacbaf712f0ba.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:33 +0530
+
+
+Started GET "/assets/application.self-e1bab2941ae1279c16290954b8b61bda18f48019746dcaef016373533f75db3f.js?body=1" for 127.0.0.1 at 2016-06-28 12:07:33 +0530
+
+
+Started GET "/assets/ShikshaSystemLogo.png" for 127.0.0.1 at 2016-06-28 12:07:33 +0530
+
+
+Started GET "/assets/indiaC.gif" for 127.0.0.1 at 2016-06-28 12:07:33 +0530
+
+
+Started GET "/assets/1920x1080-3.jpg" for 127.0.0.1 at 2016-06-28 12:07:33 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-28 14:10:29 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 1258ms (Views: 1244.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cssc9c7.self-f1fa4c8507acadf5bde26defbd680b73f8e2e17bd1554c6692f6dc65e4609d1e.css?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/csse3e5.self-b0b3cf51967761a6b2a0d931d7ceb7cb0d9fd35c741c19da6480cad189d4b818.css?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/jquery.bxslider.self-bbab3ad0b58b6f86426ad37ea56ad041af6d4ec186f6bceed95572414dee8e9f.css?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/font-awesome.min.self-96fa4576380355dd7cf66edabeb90c2d7af6dd546de8374f68c95983332b4fda.css?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/icon-font-custom.self-249291cd113bc4a677410c6e7d3ca0ccf4ca7442d4e14293b6f3709701343195.css?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/settings.self-2638d5ba8e890f85c04cd4debc6593ec09e938420c92f155c01e3da59fc643c6.css?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/magnific-popup.self-cab90797d5486127496ae578c098122a6bc0d8fcb61bb95a9162ed9db66599db.css?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/animate.min.self-1904b8068d15058cac50df05603173711c512c2eb4e11b1125c081aab216094a.css?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/YTPlayer.self-1b23fabc90db5a8222aee0e1692192a52d34de54ce5532f2cef20820706ad90f.css?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/reset.self-9a9859165f5a2123e2f42208acf55c362555150a94f34f7e171b18d86226ba6b.css?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/grid.self-73160c7e9d79e6faf5a7888e621d66588b1721fe585910b734e7346f3440a474.css?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/elements.self-46b4a8f082c26f17c3602111aa265c1fc5422f67e7742950a59c73ffe6f6b0be.css?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/layout.self-00e2f5bfdad0d2b8ce7e7030dd34072aced93c87a9a3f7612ec86981cc6c4245.css?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/components.self-7972bf5cec17b745fe2d29ae56582f9147abc5161249f1634e0f0aae1ecaa814.css?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/wordpress.self-5bf15124713644e1bef7c1917cef648e0f53a8361c72139306c82a5e092434a1.css?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/wide.self-bd66422d852ef70491e2394830c078fe77c5716f7a337a22757546a14c3d7124.css?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/default.self-b56fea4f131fe6da106b4d9e3997186621785e3a442a9f42ac54a5f611923292.css?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/switcher.self-295728493154482555bab81c424fbeea618da83b4e667e9477ac355db434f03e.css?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/application.self-e914b60a6d1c297fa3583fd9296a63f79c8d2f491e2edb0146d642d1631b4013.css?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/jquery.viewport.self-d59028ab6ffb20783f9d564a473a4e2a06bf6352eb51fe41d7a3538ba2824b03.js?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/jquery.easing.1.3.self-6d53b3e71dcf4f621078bcb948d8e743a46f40420294cca0a6874f59cdf1c1d5.js?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/jquery.simpleplaceholder.self-66cc66563915f2de7bff08d600da714da082968d00bd52054a6316d2a81502b8.js?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/jquery.fitvids.self-1ff92e133cb6aa25d9eaae12601d889d4ff5dd2b201a1c6dd6faa42ede716980.js?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/animate.self-b709ec0b8e7a1994f0f3dda22a6db7a43309ae2a505bde14e44d442b3320ecdd.js?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/hoverIntent.self-37989cabe804a55ca7f650abba5be2171feb95ac19f605fecde93ff173516988.js?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/superfish.self-fc6a817c21ddf7026886dfa7a1d0171f27c0ec5574afce353c231e38f3eb33ff.js?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/jquery.themepunch.tools.min.self-0773b61ec12a597e27143dc6e3b4fb7fdb054c0708629921be78224ffc0e5878.js?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/jquery.themepunch.revolution.min.self-38754d3968ad3286e14c557ee63801fe2f00156f773556cc3d0f7a61e55696d4.js?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/jquery.bxslider.min.self-2efec8c17fede6e22e8d83ca279de13cda53ced160ab53498db5ffcf3a700dde.js?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/jquery.magnific-popup.min.self-e2dd1d67bc0f9ced59b5cea7248b7f1207706dfcfb1fb862e78d09d94664a671.js?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/imagesloaded.pkgd.min.self-d9f71cf59157a80516f4c9709f4c3920dfafa6e02c9ff9ad91e8f5e8d81b7871.js?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/isotope.pkgd.min.self-e987fac85f3abe14ca31fb1190a1df9049b188fc12cd8df8d2db359a86fbc390.js?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/jquery.parallax.min.self-ddcc7f6c70d6c5dc3c9126748f24c94c341eb4596a26b9d67b1e7cfb068f6373.js?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/jquery.easypiechart.min.self-abf5120fc1c02df4942fbf828724046afb0a8af87e757cbe4f5118bb3dc651d3.js?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/jquery.mb.YTPlayer.self-e4fefc20f6e1541afc52477d1c732844d9ab0b7e46d747e743c4ac92a82febb2.js?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/jquery.easytabs.min.self-28c5a853a39dd63c8bb3a106fee982f83d585aebc18fb2156d594dadf9c8f91d.js?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/jquery.validate.min.self-09f664de30ee196904c94320581d224630c46c5880735d76c0de0a85f46828ab.js?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/jquery.form.min.self-2d2b203893dc1aa18ceb7375d2c7f43ea8b4ed879f4176d619ee508e7f7fcd83.js?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/jquery.gmap.min.self-5c0697465ee8d66514ab9988037747fa10735986b80d43a63dbcc0a3fd9db6b6.js?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/twitterfetcher.self-a78daf836863d13ffe9959b931908fe2e9232950c58859d12f86c0977cb3b456.js?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/main.self-daaa6e23a9dee116772fd7208882c4f7a2101f0957552fc6add7b5b9cf3462aa.js?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/jquery_cookie.self-b567668fe39f1d14a8a5517912f0c9f14ee73493834eaeb7a5adacbaf712f0ba.js?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/application.self-e1bab2941ae1279c16290954b8b61bda18f48019746dcaef016373533f75db3f.js?body=1" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/ShikshaSystemLogo.png" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/indiaC.gif" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/assets/1920x1080-3.jpg" for 127.0.0.1 at 2016-06-28 14:10:30 +0530
+
+
+Started GET "/about/index" for 127.0.0.1 at 2016-06-28 14:10:32 +0530
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 139ms (Views: 138.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/content/about-us/560x240-1.jpg" for 127.0.0.1 at 2016-06-28 14:10:33 +0530
+
+ActionController::RoutingError (No route matches [GET] "/about/content/about-us/560x240-1.jpg"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.9ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (48.0ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.7ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (23.7ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (42.6ms)
+
+
+Started GET "/about/content/about-us/560x240-2.jpg" for 127.0.0.1 at 2016-06-28 14:10:33 +0530
+
+ActionController::RoutingError (No route matches [GET] "/about/content/about-us/560x240-2.jpg"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.3ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (39.4ms)
+
+
+Started GET "/about/content/about-us/560x240-3.jpg" for 127.0.0.1 at 2016-06-28 14:10:33 +0530
+
+ActionController::RoutingError (No route matches [GET] "/about/content/about-us/560x240-3.jpg"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.6ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (36.3ms)
+
+
+Started GET "/assets/ShikshaSystemLogo.png" for 127.0.0.1 at 2016-06-28 14:10:33 +0530
+
+
+Started GET "/assets/indiaC.gif" for 127.0.0.1 at 2016-06-28 14:10:33 +0530
+
+
+Started GET "/assets/images/bx_loader.gif" for 127.0.0.1 at 2016-06-28 14:10:33 +0530
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bx_loader.gif"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.9ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.2ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (37.3ms)
+
+
+Started GET "/contact/index" for 127.0.0.1 at 2016-06-28 14:10:39 +0530
+Processing by ContactController#index as HTML
+  Rendered contact/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 156ms (Views: 154.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ShikshaSystemLogo.png" for 127.0.0.1 at 2016-06-28 14:10:39 +0530
+
+
+Started GET "/assets/indiaC.gif" for 127.0.0.1 at 2016-06-28 14:10:39 +0530
+
+
+Started GET "/contact/index" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+Processing by ContactController#index as HTML
+  Rendered contact/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 144ms (Views: 143.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cssc9c7.self-f1fa4c8507acadf5bde26defbd680b73f8e2e17bd1554c6692f6dc65e4609d1e.css?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/font-awesome.min.self-96fa4576380355dd7cf66edabeb90c2d7af6dd546de8374f68c95983332b4fda.css?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/csse3e5.self-b0b3cf51967761a6b2a0d931d7ceb7cb0d9fd35c741c19da6480cad189d4b818.css?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/icon-font-custom.self-249291cd113bc4a677410c6e7d3ca0ccf4ca7442d4e14293b6f3709701343195.css?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/settings.self-2638d5ba8e890f85c04cd4debc6593ec09e938420c92f155c01e3da59fc643c6.css?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/jquery.bxslider.self-bbab3ad0b58b6f86426ad37ea56ad041af6d4ec186f6bceed95572414dee8e9f.css?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/magnific-popup.self-cab90797d5486127496ae578c098122a6bc0d8fcb61bb95a9162ed9db66599db.css?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/animate.min.self-1904b8068d15058cac50df05603173711c512c2eb4e11b1125c081aab216094a.css?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/YTPlayer.self-1b23fabc90db5a8222aee0e1692192a52d34de54ce5532f2cef20820706ad90f.css?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/reset.self-9a9859165f5a2123e2f42208acf55c362555150a94f34f7e171b18d86226ba6b.css?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/grid.self-73160c7e9d79e6faf5a7888e621d66588b1721fe585910b734e7346f3440a474.css?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/elements.self-46b4a8f082c26f17c3602111aa265c1fc5422f67e7742950a59c73ffe6f6b0be.css?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/layout.self-00e2f5bfdad0d2b8ce7e7030dd34072aced93c87a9a3f7612ec86981cc6c4245.css?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/components.self-7972bf5cec17b745fe2d29ae56582f9147abc5161249f1634e0f0aae1ecaa814.css?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/wordpress.self-5bf15124713644e1bef7c1917cef648e0f53a8361c72139306c82a5e092434a1.css?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/wide.self-bd66422d852ef70491e2394830c078fe77c5716f7a337a22757546a14c3d7124.css?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/default.self-b56fea4f131fe6da106b4d9e3997186621785e3a442a9f42ac54a5f611923292.css?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/switcher.self-295728493154482555bab81c424fbeea618da83b4e667e9477ac355db434f03e.css?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/application.self-e914b60a6d1c297fa3583fd9296a63f79c8d2f491e2edb0146d642d1631b4013.css?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/jquery.viewport.self-d59028ab6ffb20783f9d564a473a4e2a06bf6352eb51fe41d7a3538ba2824b03.js?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/jquery.easing.1.3.self-6d53b3e71dcf4f621078bcb948d8e743a46f40420294cca0a6874f59cdf1c1d5.js?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/jquery.simpleplaceholder.self-66cc66563915f2de7bff08d600da714da082968d00bd52054a6316d2a81502b8.js?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/jquery.fitvids.self-1ff92e133cb6aa25d9eaae12601d889d4ff5dd2b201a1c6dd6faa42ede716980.js?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/animate.self-b709ec0b8e7a1994f0f3dda22a6db7a43309ae2a505bde14e44d442b3320ecdd.js?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/hoverIntent.self-37989cabe804a55ca7f650abba5be2171feb95ac19f605fecde93ff173516988.js?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/superfish.self-fc6a817c21ddf7026886dfa7a1d0171f27c0ec5574afce353c231e38f3eb33ff.js?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/jquery.themepunch.tools.min.self-0773b61ec12a597e27143dc6e3b4fb7fdb054c0708629921be78224ffc0e5878.js?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/jquery.themepunch.revolution.min.self-38754d3968ad3286e14c557ee63801fe2f00156f773556cc3d0f7a61e55696d4.js?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/jquery.bxslider.min.self-2efec8c17fede6e22e8d83ca279de13cda53ced160ab53498db5ffcf3a700dde.js?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/jquery.magnific-popup.min.self-e2dd1d67bc0f9ced59b5cea7248b7f1207706dfcfb1fb862e78d09d94664a671.js?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/imagesloaded.pkgd.min.self-d9f71cf59157a80516f4c9709f4c3920dfafa6e02c9ff9ad91e8f5e8d81b7871.js?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/isotope.pkgd.min.self-e987fac85f3abe14ca31fb1190a1df9049b188fc12cd8df8d2db359a86fbc390.js?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/jquery.parallax.min.self-ddcc7f6c70d6c5dc3c9126748f24c94c341eb4596a26b9d67b1e7cfb068f6373.js?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/jquery.easypiechart.min.self-abf5120fc1c02df4942fbf828724046afb0a8af87e757cbe4f5118bb3dc651d3.js?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/jquery.mb.YTPlayer.self-e4fefc20f6e1541afc52477d1c732844d9ab0b7e46d747e743c4ac92a82febb2.js?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/jquery.easytabs.min.self-28c5a853a39dd63c8bb3a106fee982f83d585aebc18fb2156d594dadf9c8f91d.js?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/jquery.validate.min.self-09f664de30ee196904c94320581d224630c46c5880735d76c0de0a85f46828ab.js?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/jquery.form.min.self-2d2b203893dc1aa18ceb7375d2c7f43ea8b4ed879f4176d619ee508e7f7fcd83.js?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/jquery.gmap.min.self-5c0697465ee8d66514ab9988037747fa10735986b80d43a63dbcc0a3fd9db6b6.js?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/twitterfetcher.self-a78daf836863d13ffe9959b931908fe2e9232950c58859d12f86c0977cb3b456.js?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/main.self-daaa6e23a9dee116772fd7208882c4f7a2101f0957552fc6add7b5b9cf3462aa.js?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/jquery_cookie.self-b567668fe39f1d14a8a5517912f0c9f14ee73493834eaeb7a5adacbaf712f0ba.js?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/application.self-e1bab2941ae1279c16290954b8b61bda18f48019746dcaef016373533f75db3f.js?body=1" for 127.0.0.1 at 2016-06-28 14:11:39 +0530
+
+
+Started GET "/assets/ShikshaSystemLogo.png" for 127.0.0.1 at 2016-06-28 14:11:40 +0530
+
+
+Started GET "/assets/indiaC.gif" for 127.0.0.1 at 2016-06-28 14:11:40 +0530
+
+
+Started GET "/contact/index" for 127.0.0.1 at 2016-06-28 14:12:26 +0530
+Processing by ContactController#index as HTML
+  Rendered contact/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 132ms (Views: 130.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cssc9c7.self-f1fa4c8507acadf5bde26defbd680b73f8e2e17bd1554c6692f6dc65e4609d1e.css?body=1" for 127.0.0.1 at 2016-06-28 14:12:26 +0530
+
+
+Started GET "/assets/icon-font-custom.self-249291cd113bc4a677410c6e7d3ca0ccf4ca7442d4e14293b6f3709701343195.css?body=1" for 127.0.0.1 at 2016-06-28 14:12:26 +0530
+
+
+Started GET "/assets/csse3e5.self-b0b3cf51967761a6b2a0d931d7ceb7cb0d9fd35c741c19da6480cad189d4b818.css?body=1" for 127.0.0.1 at 2016-06-28 14:12:26 +0530
+
+
+Started GET "/assets/font-awesome.min.self-96fa4576380355dd7cf66edabeb90c2d7af6dd546de8374f68c95983332b4fda.css?body=1" for 127.0.0.1 at 2016-06-28 14:12:26 +0530
+
+
+Started GET "/assets/magnific-popup.self-cab90797d5486127496ae578c098122a6bc0d8fcb61bb95a9162ed9db66599db.css?body=1" for 127.0.0.1 at 2016-06-28 14:12:26 +0530
+
+
+Started GET "/assets/settings.self-2638d5ba8e890f85c04cd4debc6593ec09e938420c92f155c01e3da59fc643c6.css?body=1" for 127.0.0.1 at 2016-06-28 14:12:26 +0530
+
+
+Started GET "/assets/jquery.bxslider.self-bbab3ad0b58b6f86426ad37ea56ad041af6d4ec186f6bceed95572414dee8e9f.css?body=1" for 127.0.0.1 at 2016-06-28 14:12:26 +0530
+
+
+Started GET "/assets/animate.min.self-1904b8068d15058cac50df05603173711c512c2eb4e11b1125c081aab216094a.css?body=1" for 127.0.0.1 at 2016-06-28 14:12:26 +0530
+
+
+Started GET "/assets/YTPlayer.self-1b23fabc90db5a8222aee0e1692192a52d34de54ce5532f2cef20820706ad90f.css?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/reset.self-9a9859165f5a2123e2f42208acf55c362555150a94f34f7e171b18d86226ba6b.css?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/grid.self-73160c7e9d79e6faf5a7888e621d66588b1721fe585910b734e7346f3440a474.css?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/elements.self-46b4a8f082c26f17c3602111aa265c1fc5422f67e7742950a59c73ffe6f6b0be.css?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/layout.self-00e2f5bfdad0d2b8ce7e7030dd34072aced93c87a9a3f7612ec86981cc6c4245.css?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/components.self-7972bf5cec17b745fe2d29ae56582f9147abc5161249f1634e0f0aae1ecaa814.css?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/wordpress.self-5bf15124713644e1bef7c1917cef648e0f53a8361c72139306c82a5e092434a1.css?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/wide.self-bd66422d852ef70491e2394830c078fe77c5716f7a337a22757546a14c3d7124.css?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/default.self-b56fea4f131fe6da106b4d9e3997186621785e3a442a9f42ac54a5f611923292.css?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/switcher.self-295728493154482555bab81c424fbeea618da83b4e667e9477ac355db434f03e.css?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/application.self-e914b60a6d1c297fa3583fd9296a63f79c8d2f491e2edb0146d642d1631b4013.css?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/jquery.viewport.self-d59028ab6ffb20783f9d564a473a4e2a06bf6352eb51fe41d7a3538ba2824b03.js?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/jquery.easing.1.3.self-6d53b3e71dcf4f621078bcb948d8e743a46f40420294cca0a6874f59cdf1c1d5.js?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/jquery.simpleplaceholder.self-66cc66563915f2de7bff08d600da714da082968d00bd52054a6316d2a81502b8.js?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/jquery.fitvids.self-1ff92e133cb6aa25d9eaae12601d889d4ff5dd2b201a1c6dd6faa42ede716980.js?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/animate.self-b709ec0b8e7a1994f0f3dda22a6db7a43309ae2a505bde14e44d442b3320ecdd.js?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/hoverIntent.self-37989cabe804a55ca7f650abba5be2171feb95ac19f605fecde93ff173516988.js?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/superfish.self-fc6a817c21ddf7026886dfa7a1d0171f27c0ec5574afce353c231e38f3eb33ff.js?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/jquery.themepunch.tools.min.self-0773b61ec12a597e27143dc6e3b4fb7fdb054c0708629921be78224ffc0e5878.js?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/jquery.themepunch.revolution.min.self-38754d3968ad3286e14c557ee63801fe2f00156f773556cc3d0f7a61e55696d4.js?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/jquery.bxslider.min.self-2efec8c17fede6e22e8d83ca279de13cda53ced160ab53498db5ffcf3a700dde.js?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/imagesloaded.pkgd.min.self-d9f71cf59157a80516f4c9709f4c3920dfafa6e02c9ff9ad91e8f5e8d81b7871.js?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/isotope.pkgd.min.self-e987fac85f3abe14ca31fb1190a1df9049b188fc12cd8df8d2db359a86fbc390.js?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/jquery.magnific-popup.min.self-e2dd1d67bc0f9ced59b5cea7248b7f1207706dfcfb1fb862e78d09d94664a671.js?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/jquery.parallax.min.self-ddcc7f6c70d6c5dc3c9126748f24c94c341eb4596a26b9d67b1e7cfb068f6373.js?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/jquery.easypiechart.min.self-abf5120fc1c02df4942fbf828724046afb0a8af87e757cbe4f5118bb3dc651d3.js?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/jquery.mb.YTPlayer.self-e4fefc20f6e1541afc52477d1c732844d9ab0b7e46d747e743c4ac92a82febb2.js?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/jquery.easytabs.min.self-28c5a853a39dd63c8bb3a106fee982f83d585aebc18fb2156d594dadf9c8f91d.js?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/jquery.validate.min.self-09f664de30ee196904c94320581d224630c46c5880735d76c0de0a85f46828ab.js?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/jquery.form.min.self-2d2b203893dc1aa18ceb7375d2c7f43ea8b4ed879f4176d619ee508e7f7fcd83.js?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/jquery.gmap.min.self-5c0697465ee8d66514ab9988037747fa10735986b80d43a63dbcc0a3fd9db6b6.js?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/twitterfetcher.self-a78daf836863d13ffe9959b931908fe2e9232950c58859d12f86c0977cb3b456.js?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/main.self-daaa6e23a9dee116772fd7208882c4f7a2101f0957552fc6add7b5b9cf3462aa.js?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/jquery_cookie.self-b567668fe39f1d14a8a5517912f0c9f14ee73493834eaeb7a5adacbaf712f0ba.js?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/application.self-e1bab2941ae1279c16290954b8b61bda18f48019746dcaef016373533f75db3f.js?body=1" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/ShikshaSystemLogo.png" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/assets/indiaC.gif" for 127.0.0.1 at 2016-06-28 14:12:27 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-28 14:13:30 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 145ms (Views: 144.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ShikshaSystemLogo.png" for 127.0.0.1 at 2016-06-28 14:13:31 +0530
+
+
+Started GET "/assets/indiaC.gif" for 127.0.0.1 at 2016-06-28 14:13:31 +0530
+
+
+Started GET "/assets/1920x1080-3.jpg" for 127.0.0.1 at 2016-06-28 14:13:31 +0530
+
+
+Started GET "/assets/fonts/iconfontcustom9659.woff?jzaet" for 127.0.0.1 at 2016-06-28 14:13:31 +0530
+
+
+Started GET "/assets/font/fontawesome-webfonte0a5.woff2?v=4.3.0" for 127.0.0.1 at 2016-06-28 14:13:31 +0530
+
+
+Started GET "/about/index" for 127.0.0.1 at 2016-06-28 14:13:31 +0530
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 198ms (Views: 196.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ShikshaSystemLogo.png" for 127.0.0.1 at 2016-06-28 14:13:31 +0530
+
+
+Started GET "/about/content/about-us/560x240-2.jpg" for 127.0.0.1 at 2016-06-28 14:13:31 +0530
+
+ActionController::RoutingError (No route matches [GET] "/about/content/about-us/560x240-2.jpg"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.2ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.7ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (42.2ms)
+
+
+Started GET "/about/content/about-us/560x240-1.jpg" for 127.0.0.1 at 2016-06-28 14:13:31 +0530
+
+ActionController::RoutingError (No route matches [GET] "/about/content/about-us/560x240-1.jpg"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.8ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (37.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (24.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (44.5ms)
+
+
+Started GET "/assets/indiaC.gif" for 127.0.0.1 at 2016-06-28 14:13:31 +0530
+
+
+Started GET "/about/content/about-us/560x240-3.jpg" for 127.0.0.1 at 2016-06-28 14:13:31 +0530
+
+ActionController::RoutingError (No route matches [GET] "/about/content/about-us/560x240-3.jpg"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.2ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.1ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (37.5ms)
+
+
+Started GET "/assets/images/bx_loader.gif" for 127.0.0.1 at 2016-06-28 14:13:32 +0530
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bx_loader.gif"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/uday/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.3ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/uday/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (38.4ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2016-06-28 14:13:52 +0530
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 140ms (Views: 139.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cssc9c7.self-f1fa4c8507acadf5bde26defbd680b73f8e2e17bd1554c6692f6dc65e4609d1e.css?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/csse3e5.self-b0b3cf51967761a6b2a0d931d7ceb7cb0d9fd35c741c19da6480cad189d4b818.css?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/settings.self-2638d5ba8e890f85c04cd4debc6593ec09e938420c92f155c01e3da59fc643c6.css?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/icon-font-custom.self-249291cd113bc4a677410c6e7d3ca0ccf4ca7442d4e14293b6f3709701343195.css?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/jquery.bxslider.self-bbab3ad0b58b6f86426ad37ea56ad041af6d4ec186f6bceed95572414dee8e9f.css?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/font-awesome.min.self-96fa4576380355dd7cf66edabeb90c2d7af6dd546de8374f68c95983332b4fda.css?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/magnific-popup.self-cab90797d5486127496ae578c098122a6bc0d8fcb61bb95a9162ed9db66599db.css?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/animate.min.self-1904b8068d15058cac50df05603173711c512c2eb4e11b1125c081aab216094a.css?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/YTPlayer.self-1b23fabc90db5a8222aee0e1692192a52d34de54ce5532f2cef20820706ad90f.css?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/reset.self-9a9859165f5a2123e2f42208acf55c362555150a94f34f7e171b18d86226ba6b.css?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/grid.self-73160c7e9d79e6faf5a7888e621d66588b1721fe585910b734e7346f3440a474.css?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/elements.self-46b4a8f082c26f17c3602111aa265c1fc5422f67e7742950a59c73ffe6f6b0be.css?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/layout.self-00e2f5bfdad0d2b8ce7e7030dd34072aced93c87a9a3f7612ec86981cc6c4245.css?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/components.self-7972bf5cec17b745fe2d29ae56582f9147abc5161249f1634e0f0aae1ecaa814.css?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/wordpress.self-5bf15124713644e1bef7c1917cef648e0f53a8361c72139306c82a5e092434a1.css?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/wide.self-bd66422d852ef70491e2394830c078fe77c5716f7a337a22757546a14c3d7124.css?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/default.self-b56fea4f131fe6da106b4d9e3997186621785e3a442a9f42ac54a5f611923292.css?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/switcher.self-295728493154482555bab81c424fbeea618da83b4e667e9477ac355db434f03e.css?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/application.self-e914b60a6d1c297fa3583fd9296a63f79c8d2f491e2edb0146d642d1631b4013.css?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/jquery.viewport.self-d59028ab6ffb20783f9d564a473a4e2a06bf6352eb51fe41d7a3538ba2824b03.js?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/jquery.easing.1.3.self-6d53b3e71dcf4f621078bcb948d8e743a46f40420294cca0a6874f59cdf1c1d5.js?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/jquery.simpleplaceholder.self-66cc66563915f2de7bff08d600da714da082968d00bd52054a6316d2a81502b8.js?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/jquery.fitvids.self-1ff92e133cb6aa25d9eaae12601d889d4ff5dd2b201a1c6dd6faa42ede716980.js?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/animate.self-b709ec0b8e7a1994f0f3dda22a6db7a43309ae2a505bde14e44d442b3320ecdd.js?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/hoverIntent.self-37989cabe804a55ca7f650abba5be2171feb95ac19f605fecde93ff173516988.js?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/superfish.self-fc6a817c21ddf7026886dfa7a1d0171f27c0ec5574afce353c231e38f3eb33ff.js?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/jquery.themepunch.tools.min.self-0773b61ec12a597e27143dc6e3b4fb7fdb054c0708629921be78224ffc0e5878.js?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/jquery.themepunch.revolution.min.self-38754d3968ad3286e14c557ee63801fe2f00156f773556cc3d0f7a61e55696d4.js?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/jquery.bxslider.min.self-2efec8c17fede6e22e8d83ca279de13cda53ced160ab53498db5ffcf3a700dde.js?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/jquery.magnific-popup.min.self-e2dd1d67bc0f9ced59b5cea7248b7f1207706dfcfb1fb862e78d09d94664a671.js?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/imagesloaded.pkgd.min.self-d9f71cf59157a80516f4c9709f4c3920dfafa6e02c9ff9ad91e8f5e8d81b7871.js?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/isotope.pkgd.min.self-e987fac85f3abe14ca31fb1190a1df9049b188fc12cd8df8d2db359a86fbc390.js?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/jquery.parallax.min.self-ddcc7f6c70d6c5dc3c9126748f24c94c341eb4596a26b9d67b1e7cfb068f6373.js?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/jquery.easypiechart.min.self-abf5120fc1c02df4942fbf828724046afb0a8af87e757cbe4f5118bb3dc651d3.js?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/jquery.mb.YTPlayer.self-e4fefc20f6e1541afc52477d1c732844d9ab0b7e46d747e743c4ac92a82febb2.js?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/jquery.easytabs.min.self-28c5a853a39dd63c8bb3a106fee982f83d585aebc18fb2156d594dadf9c8f91d.js?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/jquery.validate.min.self-09f664de30ee196904c94320581d224630c46c5880735d76c0de0a85f46828ab.js?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/jquery.form.min.self-2d2b203893dc1aa18ceb7375d2c7f43ea8b4ed879f4176d619ee508e7f7fcd83.js?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/jquery.gmap.min.self-5c0697465ee8d66514ab9988037747fa10735986b80d43a63dbcc0a3fd9db6b6.js?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/twitterfetcher.self-a78daf836863d13ffe9959b931908fe2e9232950c58859d12f86c0977cb3b456.js?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/main.self-daaa6e23a9dee116772fd7208882c4f7a2101f0957552fc6add7b5b9cf3462aa.js?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/jquery_cookie.self-b567668fe39f1d14a8a5517912f0c9f14ee73493834eaeb7a5adacbaf712f0ba.js?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/application.self-e1bab2941ae1279c16290954b8b61bda18f48019746dcaef016373533f75db3f.js?body=1" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/ShikshaSystemLogo.png" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/560x240-2.jpg" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/indiaC.gif" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/560x240-1.jpg" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/assets/560x240-3.jpg" for 127.0.0.1 at 2016-06-28 14:13:53 +0530
+
+
+Started GET "/about/index" for 127.0.0.1 at 2016-06-28 14:13:57 +0530
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 138ms (Views: 137.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ShikshaSystemLogo.png" for 127.0.0.1 at 2016-06-28 14:13:57 +0530
+
+
+Started GET "/assets/560x240-1.jpg" for 127.0.0.1 at 2016-06-28 14:13:57 +0530
+
+
+Started GET "/assets/560x240-2.jpg" for 127.0.0.1 at 2016-06-28 14:13:57 +0530
+
+
+Started GET "/assets/indiaC.gif" for 127.0.0.1 at 2016-06-28 14:13:57 +0530
+
+
+Started GET "/assets/560x240-3.jpg" for 127.0.0.1 at 2016-06-28 14:13:57 +0530
+
+
+Started GET "/contact/index" for 127.0.0.1 at 2016-06-28 14:13:58 +0530
+Processing by ContactController#index as HTML
+  Rendered contact/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 134ms (Views: 133.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ShikshaSystemLogo.png" for 127.0.0.1 at 2016-06-28 14:13:58 +0530
+
+
+Started GET "/assets/indiaC.gif" for 127.0.0.1 at 2016-06-28 14:13:58 +0530

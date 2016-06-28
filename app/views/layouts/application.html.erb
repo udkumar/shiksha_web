@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>:: Shiksha Syatem ERP ::</title>
+  <%= stylesheet_link_tag    'application', media: 'all'%>
+  <%= javascript_include_tag 'application' %>
+  <%= csrf_meta_tags %>
+</head>
+<body class="sticky-header">
+  <div id="wrap">
+    <div id="header-wrap">
+      <div id="header">
+      <!-- /// HEADER  ///////////// -->
+        <div class="container" style="margin-top: -13px;">
+          <div class="row">
+            <div class="span4">
+                <!-- // Logo // -->
+                <div id="logo">
+                    <a href="<%= root_path %>">
+                      <img src="/assets/ShikshaSystemLogo.png" alt="Shiksha System">
+                    </a>
+                </div>
+            </div><!-- end .span4 -->
+            <div class="span8" style="margin-top: 14px;">
+                <!-- // Mobile menu trigger // -->
+                <a href="#" id="mobile-menu-trigger">
+                  <i class="fa fa-bars"></i>
+                </a>
+                <!-- // Menu // -->
+                <nav>
+                  <ul class="sf-menu fixed" id="menu">
+                      <li class="dropdown current">
+                        <%= link_to "Home", root_path %>
+                      </li>
+                      <li>
+                        <%= link_to "About Us", about_index_path %>
+                      </li>
+                    <li>
+                      <%= link_to "Contact", contact_index_path %>
+                    </li>
+                  </ul>
+                </nav>
+            </div><!-- end .span8 -->
+        </div><!-- end .row -->
+      </div><!-- end .container -->
+    </div><!-- end #header -->
+  </div><!-- end #header-wrap -->
+
+  <%= yield %>
+
+      <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="span2" id="footer-widget-area-1">
+            <div class="widget ewf_widget_navigation">
+              <h5 class="hide-line-link" class="widget-title">Why Shiksha System</h5>
+                <ul>
+                  <li class="hide-line-link"><a>24/7 Call Support</a></li>
+                  <li class="hide-line-link"><a>24/7 Mail Support</a></li>
+                  <li class="hide-line-link"><a>Free Training</a></li>
+                  <li class="hide-line-link"><a>Cloud Service</a></li>
+                </ul>
+              </div><!-- end .ewf_widget_navigation -->
+
+            <div class="widget ewf_widget_social_media">
+
+            <div class="fixed">
+              <a href="#" class="google-plus-icon social-icon">
+                <i class="fa fa-google-plus"></i>
+              </a>
+             <a href="#" class="pinterest-icon social-icon">
+                <i class="fa fa-pinterest"></i>
+              </a>
+              <a href="#" class="facebook-icon social-icon">
+                <i class="fa fa-facebook"></i>
+              </a>
+              <a href="#" class="twitter-icon social-icon">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </div>
+
+            </div><!-- end .ewf_widget_social_media -->
+
+          </div><!-- end .span3 -->
+          <div class="span2" id="footer-widget-area-2">
+
+            <div class="widget ewf_widget_navigation">
+              <h5 class="hide-line-link" class="widget-title">Product</h5>
+                <ul>
+                  <li class="hide-line-link"><a>ERP</a></li>
+                  <li class="hide-line-link"><a >Online Class</a></li>
+                  <li class="hide-line-link"><a>Live Presentation</a></li>
+                  <li class="hide-line-link"><a>Video Class</a></li>
+                </ul>
+            </div><!-- end .ewf_widget_navigation -->
+          </div><!-- end .span3 -->
+          <div class="span2" id="footer-widget-area-3">
+            <div class="widget ewf_widget_navigation">
+              <h5 class="hide-line-link" class="widget-title">Support</h5>
+                <ul>
+                  <li class="hide-line-link"><a>Call Us</a></li>
+                  <li class="hide-line-link"><a>Mail Us</a></li>
+                  <li class="hide-line-link"><a>Let Us Call You!</a></li>
+                </ul>
+              </div><!-- end .ewf_widget_flickr -->
+            </div><!-- end .span3 -->
+                    <div class="span3" id="footer-widget-area-4">
+
+
+
+            <div class="widget widget_text">
+            <h5 class="hide-line-link" class="widget-title">Get in touch</h5>
+
+                            <div class="textwidget">
+
+                <p class="no-margin-bottom"><strong>Contact Info</strong><br>
+                <span class="hidden-tablet">Phone / Fax:</span> +91-06224 289022<br>
+                <span class="hidden-tablet">Email:</span> info@sikshasystem.com</p>
+
+              </div>
+
+                        </div><!-- end .widget_text -->
+
+                    </div><!-- end .span3 -->
+                    <div class="span3" id="footer-widget-area-4">
+            <div class="widget widget_text">
+            <h5 class="hide-line-link" class="widget-title">Address</h5>
+              <div class="textwidget">
+                <p><strong>Corporate office</strong><br>
+                Uttam Nagar<br>
+                New Delhi 110059, India</p>
+                <p><strong>Development office 1</strong><br>
+                Uttam Nagar<br>
+                New Delhi 110059, India<br>
+                <strong>Development office 2</strong><br>
+                Kankar Bagh<br>
+                Patna 844102, India</p>
+              </div>
+              </div><!-- end .widget_text -->
+
+                    </div><!-- end .span3 -->
+                </div><!-- end .row -->
+            </div><!-- end .container -->
+
+
+    </div><!-- end #footer -->
+    <div id="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="span6" id="footer-bottom-widget-area-1">
+            <div class="widget widget_text">
+              <div class="textwidget">
+                <p class="copyright"> &copy; 2015 Shiksha System. </p>
+              </div>
+            </div><!-- end .widget_text -->
+          </div><!-- end .span6 -->
+          <div class="span6">
+            <div class="widget ">
+              <div class="textwidget">
+                <p class="pull-right">  <span>Digital India Support <img src="/assets/indiaC.gif" height="40" width="40"></span> | Quality Paperless Solution of <a href="http://geeksorb.com/">GEEKSORB</a></p>
+              </div>
+            </div><!-- end .widget_text -->
+          </div><!-- end .span6 -->
+        </div><!-- end .row -->
+      </div><!-- end .container -->
+    </div><!-- end #footer-bottom -->
+
+
+</body>
+</html>
